@@ -1,21 +1,31 @@
-
 public class Person {
-	
-	public String name;
-	
 
+	private String name;
+
+	private String vorname;
+	private boolean geschlecht;
+	
+	
 	public Person() {
 		super();
 
 	}
-	
-	public void  print(){
-	System.out.println(toString());
+
+	public void print() {
+		System.out.println(toString());
 	}
 
 	@Override
 	public String toString() {
-		return "Meine ist" + name ;
+		return "Meine name ist " + name + vorname;
+	}
+
+	public String getVorname() {
+		return vorname;
+	}
+
+	public void setVorname(String vorname) {
+		this.vorname = vorname;
 	}
 
 	public String getName() {
@@ -25,6 +35,5 @@ public class Person {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
 
 }

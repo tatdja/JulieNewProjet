@@ -3,11 +3,11 @@ public class Person {
 	private String name;
 
 	private String vorname;
-	private boolean geschlecht; 
+	private String nachnahme; 
 	
 	
 	public Person() {
-		super();
+		
 
 	}
 
@@ -36,12 +36,12 @@ public class Person {
 		this.name = name;
 	}
 
-	public boolean isGeschlecht() {
-		return geschlecht;
+	public String getNachnahme() {
+		return nachnahme;
 	}
 
-	public void setGeschlecht(boolean geschlecht) {
-		this.geschlecht = geschlecht;
+	public void setNachnahme(String nachnahme) {
+		this.nachnahme = nachnahme;
 	}
 
 }

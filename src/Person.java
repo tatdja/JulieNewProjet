@@ -1,7 +1,6 @@
 public class Person {
 
 	private String name;
-
 	private String vorname;
 	private String nachnahme; 
 	

@@ -3,7 +3,7 @@ public class Person {
 	private String name;
 
 	private String vorname;
-	private boolean geschlecht;
+	private String nachname;
 	
 	
 	public Person() {
@@ -34,6 +34,14 @@ public class Person {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getNachname() {
+		return nachname;
+	}
+
+	public void setNachname(String nachname) {
+		this.nachname = nachname;
 	}
 
 }

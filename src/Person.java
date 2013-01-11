@@ -1,18 +1,14 @@
-import java.util.Date;
-
-
-
 public class Person {
 
 	private String name;
-
 	private String vorname;
-	private String nachname;
-	private Date geburtsdatum;
-
+	
+	private String nachnahme; 
+	
+	
 	
 	public Person() {
-		super();
+		
 
 	}
 
@@ -41,20 +37,11 @@ public class Person {
 		this.name = name;
 	}
 
-	public String getNachname() {
-		return nachname;
+	public String getNachnahme() {
+		return nachnahme;
 	}
 
-	public void setNachname(String nachname) {
-		this.nachname = nachname;
+	public void setNachnahme(String nachnahme) {
+		this.nachnahme = nachnahme;
 	}
-
-	public Date getGeburtsdatum() {
-		return geburtsdatum;
-	}
-
-	public void setGeburtsdatum(Date geburtsdatum) {
-		this.geburtsdatum = geburtsdatum;
-	}
-
 }

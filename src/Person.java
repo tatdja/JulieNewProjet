@@ -1,9 +1,15 @@
 public class Person {
 
 	private String name;
+
 	private String vorname;
+
 	private String nachnahme; 
+
 	private String stadt;
+
+	
+
 	
 	
 	public Person() {
@@ -51,5 +57,6 @@ public class Person {
 	public void setStadt(String stadt) {
 		this.stadt = stadt;
 	}
+
 
 }

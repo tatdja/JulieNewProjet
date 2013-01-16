@@ -3,6 +3,7 @@ public class Person {
 	private String name;
 	private String vorname;	
 	private String nachnahme; 
+	private String laendern;
 	
 	
 	
@@ -42,5 +43,13 @@ public class Person {
 
 	public void setNachnahme(String nachnahme) {
 		this.nachnahme = nachnahme;
+	}
+
+	public String getLaendern() {
+		return laendern;
+	}
+
+	public void setLaendern(String laendern) {
+		this.laendern = laendern;
 	}
 }

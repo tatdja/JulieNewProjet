@@ -4,12 +4,7 @@ public class Person {
 	private String vorname;	
 	private String nachnahme; 
 	private String stadt;
-
 	private String laendern;
-
-	
-
-
 	
 	public Person() {
 		

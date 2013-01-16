@@ -6,6 +6,12 @@ public class Person {
 	private String stadt;
 
 	private String laendern;
+<<<<<<< HEAD
+=======
+	
+
+
+>>>>>>> refs/heads/trunk
 	
 
 

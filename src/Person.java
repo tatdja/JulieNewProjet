@@ -3,8 +3,12 @@ public class Person {
 	private String name;
 	private String vorname;	
 	private String nachnahme; 
+	private String stadt;
+
+	private String laendern;
 	
-	
+
+
 	
 	public Person() {
 		
@@ -42,5 +46,34 @@ public class Person {
 
 	public void setNachnahme(String nachnahme) {
 		this.nachnahme = nachnahme;
+	}
+
+
+	public String getStadt() {
+		return stadt;
+	}
+
+	public void setStadt(String stadt) {
+		this.stadt = stadt;
+	}
+
+
+
+	public String getLaendern() {
+		return laendern;
+	}
+
+	public void setLaendern(String laendern) {
+		this.laendern = laendern;
+	}
+
+
+
+	public String getLaendern() {
+		return laendern;
+	}
+
+	public void setLaendern(String laendern) {
+		this.laendern = laendern;
 	}
 }

@@ -5,7 +5,14 @@ public class Person {
 	private String vorname;
 
 	private String nachnahme; 
+<<<<<<< HEAD
 	private String laendern;
+=======
+
+	private String stadt;
+
+>>>>>>> refs/heads/trunk
+
 
 	private String stadt;
 
@@ -51,6 +58,7 @@ public class Person {
 		this.nachnahme = nachnahme;
 	}
 
+<<<<<<< HEAD
 	public String getLaendern() {
 		return laendern;
 	}
@@ -58,7 +66,7 @@ public class Person {
 	public void setLaendern(String laendern) {
 		this.laendern = laendern;
 	}
-
+=======
 	public String getStadt() {
 		return stadt;
 	}
@@ -68,4 +76,5 @@ public class Person {
 	}
 
 
+>>>>>>> refs/heads/trunk
 }

@@ -55,11 +55,11 @@ public class Person {
 
 
 
-	public String getLaendern() {
+	public String getLaendern1() {
 		return laendern;
 	}
 
-	public void setLaendern(String laendern) {
+	public void setLaendern1(String laendern) {
 		this.laendern = laendern;
 	}
 

@@ -1,3 +1,6 @@
+import java.text.DateFormat;
+import java.util.Date;
+
 public class Person {
 
 	private String name;
@@ -5,10 +8,11 @@ public class Person {
 	private String nachnahme; 
 	private String stadt;
 	private String laendern;
+	private int date;
 	
 	public Person() {
 		
-
+     
 	}
 
 	public void print() {
@@ -71,5 +75,13 @@ public class Person {
 
 	public void setLaendern(String laendern) {
 		this.laendern = laendern;
+	}
+
+	public int getDate() {
+		return date;
+	}
+
+	public void setDate(int date) {
+		this.date = date;
 	}
 }

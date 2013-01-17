@@ -20,7 +20,9 @@ public class Person {
 		return "Meine name ist " + name + vorname;
 	}
 
-	
+	public String getVorname() {
+		return vorname;
+	}
 
 	public void setVorname(String vorname) {
 		this.vorname = vorname;

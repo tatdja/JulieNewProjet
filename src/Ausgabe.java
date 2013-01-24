@@ -8,7 +8,8 @@ public class Ausgabe {
 		Person person = new Person();
 		person.setName("Julie");
 		person.getNachnahme();
-		person.print();   
+		person.print(); 
+		
 	}
 
 }

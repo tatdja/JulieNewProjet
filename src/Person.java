@@ -1,23 +1,12 @@
 public class Person {
 
 	private String name;
-
 	private String vorname;
-
-	private String nachnahme; 
-
+	private String nachnahme;
 	private String laendern;
-
-
 	private String stadt;
 
-
-	
-
-	
-	
 	public Person() {
-		
 
 	}
 
@@ -54,7 +43,6 @@ public class Person {
 		this.nachnahme = nachnahme;
 	}
 
-
 	public String getLaendern() {
 		return laendern;
 	}
@@ -70,7 +58,5 @@ public class Person {
 	public void setStadt(String stadt) {
 		this.stadt = stadt;
 	}
-
-
 
 }

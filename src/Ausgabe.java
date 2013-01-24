@@ -9,7 +9,7 @@ public class Ausgabe {
 		person.setName("Julie");
 		person.getNachnahme();
 		person.print(); 
-		System.out.println(person.getDate()); 
+	
 	}
 
 }

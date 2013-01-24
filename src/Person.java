@@ -1,18 +1,13 @@
-import java.text.DateFormat;
-import java.util.Date;
-
 public class Person {
 
 	private String name;
-	private String vorname;	
-	private String nachnahme; 
+	private String vorname;
+	private String nachnahme;
 	private String stadt;
-	private String laendern;
-	private int date;
-	
+	private String land;
+
 	public Person() {
-		
-     
+
 	}
 
 	public void print() {
@@ -48,7 +43,6 @@ public class Person {
 		this.nachnahme = nachnahme;
 	}
 
-
 	public String getStadt() {
 		return stadt;
 	}
@@ -57,31 +51,11 @@ public class Person {
 		this.stadt = stadt;
 	}
 
-
-
-	public String getLaendern1() {
-		return laendern;
+	public String getLand() {
+		return land;
 	}
 
-	public void setLaendern1(String laendern) {
-		this.laendern = laendern;
-	}
-
-
-
-	public String getLaendern() {
-		return laendern;
-	}
-
-	public void setLaendern(String laendern) {
-		this.laendern = laendern;
-	}
-
-	public int getDate() {
-		return date;
-	}
-
-	public void setDate(int date) {
-		this.date = date;
+	public void setLand(String land) {
+		this.land = land;
 	}
 }
